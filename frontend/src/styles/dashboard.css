@@ -1,0 +1,68 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #FFF;
+    padding: 20px
+}
+  
+  .logo-container {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 50px 0 0 20px;
+  }
+  
+  .navigation li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    background-color: #f0f0f0; 
+  }
+  
+  .dashboard-header {
+    padding: 20px;
+    height: 10vh;
+    background-color: #fff; 
+    border-bottom: 1px solid #e0e0e0;
+    text-align: right;
+  }
+  
+  .statistics {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .statistic-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    width: 150px; 
+    margin: 0 10px;
+  }
+  
+  .statistic-card .number {
+    display: block;
+    font-size: 2em; 
+    font-weight: bold;
+  }
+  
+  .statistic-card .label {
+    display: block;
+    font-size: 1em;
+    color: #666;
+  }
+  
